@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "clangd", "cmake" },
+				ensure_installed = { "lua_ls", "clangd", "cmake", "asm_lsp" },
 			})
 		end,
 	},
@@ -26,6 +26,9 @@ return {
 				capabilities = capabilites,
 			})
             lspconfig.cmake.setup({
+				capabilities = capabilites,
+            })
+            lspconfig.asm_lsp.setup({
 				capabilities = capabilites,
             })
 
