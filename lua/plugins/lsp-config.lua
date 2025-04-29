@@ -30,6 +30,7 @@ return {
             })
             lspconfig.asm_lsp.setup({
 				capabilities = capabilites,
+                filetypes = { "asm", "s", "S" },
             })
             lspconfig.pylsp.setup({
 				capabilities = capabilites,
