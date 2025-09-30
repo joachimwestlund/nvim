@@ -1,7 +1,11 @@
 My NeoVim setup
+
 sudo apt install cargo
+
 sudo apt install npm
+
 sudo apt install libssl-dev
+
 sudo apt install pkg-config
 
 curl https://sh.rustup.rs -sSf | sh
