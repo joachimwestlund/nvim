@@ -28,7 +28,7 @@ asmfmt from Mason as formatter.
 
 <ctrl - e > abort completions
 
-<CR> confirm completions
+\<CR\> confirm completions
 
 ## neo-tree.lua
 
